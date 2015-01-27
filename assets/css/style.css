@@ -288,29 +288,58 @@ ul.dropdown-menu>li>a>i.fa {
 .fa-chevron-right:before {
 	content: "\f054"
 }
-.post-meta {
-	color:#999;
-	font-size:18px;
-	margin-top:-18px;
-	margin-bottom:30px;
-	letter-spacing:1px;
-}
-.post-meta {
-		font-size:16px;
-		letter-spacing:0;
-		margin-top:-15px;
-	}
 
-.fa-calendar:before {content:"\f073"}
-.fa-calendar-o:before{content:"\f133"}
+.post-meta {
+	color: #999;
+	font-size: 18px;
+	margin-top: -18px;
+	margin-bottom: 30px;
+	letter-spacing: 1px;
+}
+
+.post-meta {
+	font-size: 16px;
+	letter-spacing: 0;
+	margin-top: -15px;
+}
+
+.fa-calendar:before {
+	content: "\f073"
+}
+
+.fa-calendar-o:before {
+	content: "\f133"
+}
+
 .space {
-	margin:0 10px;
+	margin: 0 10px;
 }
-.fa-tags:before{content:"\f02c"}
+
+.fa-tags:before {
+	content: "\f02c"
+}
+
 .post-category {
-	color:#0090d3;
-	text-transform:Capitalize;
+	color: #0090d3;
+	text-transform: Capitalize;
 }
+
 .post-category:hover {
-	color:#00bb2f;
+	color: #00bb2f;
+}
+
+.share {
+	margin: 25px 0 25px 1px;
+}
+
+.bdshare_dialog_bottom {
+	display: none;
+}
+
+.share {
+	margin: -5px 0 15px 1px;
+}
+
+.share {
+	margin: -10px 0 10px 1px;
 }
