@@ -26,6 +26,8 @@ tagline:
   <div>
     {% if post.fullview %}
     {{ post.content | split:'<!-- more -->'| first }}
+    <p>
+    <p>
     <div class="readall"><a href="{{ post.url }}" id="post-readall">More&nbsp;<i class="fa fa-chevron-right"></i></a></div>
     {% else %}
     {% if post.shortinfo %}
