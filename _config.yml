@@ -6,9 +6,6 @@ exclude: ["README.md"] # files to exclude
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-redcarpet:
-	extensions: ['fenced_code_blocks', "tables", "highlight", "strikethrough"]
-
 
 defaults:
   -
