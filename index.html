@@ -25,7 +25,7 @@ tagline:
 
   <div>
     {% if post.fullview %}
-    {{ post.content }}
+    {{ post.content | split:'<!-- more -->'| first }}
     {% else %}
     {% if post.shortinfo %}
     {{ post.shortinfo }}
