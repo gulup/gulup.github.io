@@ -210,11 +210,15 @@ ul.dropdown-menu>li>a>i.fa {
 	-o-border-radius:10%;
 }
 #sub-nav a.github {
-	margin-bottom:4px;
-	color:#dfdfdf;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	color:#ffeb00;
 }
 #sub-nav a.github:hover {
-	margin-bottom:4px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
 	color:#ffeb00;
 	opacity:0.9;
 }
