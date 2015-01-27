@@ -209,4 +209,13 @@ ul.dropdown-menu>li>a>i.fa {
 	-webkit-border-radius:10%;
 	-o-border-radius:10%;
 }
-
+#sub-nav a.github {
+	margin-bottom:4px;
+	color:#dfdfdf;
+}
+#sub-nav a.github:hover {
+	margin-bottom:4px;
+	color:#ffeb00;
+	opacity:0.9;
+}
+.fa-github:before{content:"\f09b"}
