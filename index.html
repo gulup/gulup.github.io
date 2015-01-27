@@ -29,14 +29,6 @@ tagline:
   <h2>
     <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
   </h2>
-  
-  <span class="post-meta">
-        <i class="fa fa-calendar"></i>
-        {{ post.date | date: "%Y" }}年{{ post.date | date: "%m" }}月{{ post.date | date: "%d" }}日
-        <i class="space"></i>
-        <i class="fa fa-tags"></i>
-        <a class="post-category" href="/categories.html#{{ post.categories }}">{{ post.categories }}</a>
-  </span>
 
   <div>
     {% if post.fullview %}

@@ -308,9 +308,9 @@ ul.dropdown-menu>li>a>i.fa {
 }
 .fa-tags:before{content:"\f02c"}
 .post-category {
-	color:#00bb2f;
+	color:#0090d3;
 	text-transform:Capitalize;
 }
 .post-category:hover {
-	color:#0090d3;
+	color:#00bb2f;
 }
