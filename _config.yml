@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: gulup
+      title: 小咕噜的Blog
 
 description: Stylish Jekyll Theme
 author:
