@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 
+title: 在J2ME上是配合jzlib使用tmx创建游戏地图
 categories: [j2me]
 tags: [j2me,game,rpg,游戏]
 fullview: true
