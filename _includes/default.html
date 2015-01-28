@@ -126,13 +126,15 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
-	$(window).load(function(){
-     	$("pre").addClass("prettyprint");
-     	prettyPrint();
-	})
-	$(function() {
-  		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
-	});
+	<script type="text/javascript">
+		$(window).load(function(){
+	     	$("pre").addClass("prettyprint");
+	     	prettyPrint();
+		})
+		$(function() {
+	  		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+		});
+	</script>
 </body>
 
 </html>
