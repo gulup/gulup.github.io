@@ -343,3 +343,17 @@ ul.dropdown-menu>li>a>i.fa {
 .share {
 	margin: -10px 0 10px 1px;
 }
+
+.comments {
+	margin: 95px 0 -120px 0;
+}
+
+.comments {
+	margin: 70px 0 -110px 0;
+}
+
+.comments {
+	margin: 120px 0 -165px 0;
+}
+.fa-comments:before{content:"\f086"}
+.fa-comments-o:before{content:"\f0e6"}
