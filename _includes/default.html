@@ -27,6 +27,7 @@
 	<link href="{{ site.BASE_PATH }}/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/resources/syntax/syntax.css" rel="stylesheet">
 	<link href="{{ site.BASE_PATH }}/assets/css/style.css" rel="stylesheet">
+	<link href="{{ site.BASE_PATH }}/assets/css/prettify.css" rel="stylesheet">
 	<link rel="shortcut icon" href="{{ site.BASE_PATH }}/assets/ico/favicon.ico">
 
 	<!-- Le fav and touch icons -->
@@ -121,10 +122,17 @@
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/shBrushCpp.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/shBrushPython.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/shCore.js"></script> -->
-	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/run_prettify.js"></script>
+	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/prettify.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/app.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/jquery/jquery.min.js"></script>
 	<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	$(window).load(function(){
+     	$("pre").addClass("prettyprint");
+     	prettyPrint();
+	})
+	$(function() {
+  		$('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto');
+	});
 </body>
 
 </html>
