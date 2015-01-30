@@ -28,7 +28,7 @@ fullview: true
 
 * 5-之后就在你的Github Pages的项目的根目录下添加一个文件`"CNAME"`.    
     就叫这个名字,没有后缀什么的.里面填上你要绑定的域名,不需要添加`http://`      
-    直接写域名就好了:
+    直接写域名就好了:		
     ![](http://gulup.github.io/public/img/20150130/4.png)  		
 
     记得commit到github上.   
