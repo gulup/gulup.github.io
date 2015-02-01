@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2015年移动应用开发趋势总结
-categories: [news,information]
+categories: [information]
 tags: [新闻,资讯]
 fullview: true
 ---

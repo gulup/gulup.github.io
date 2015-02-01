@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Pages绑定域名
-categories: [other,web]
+categories: [other]
 tags: [随笔]
 fullview: true
 ---
