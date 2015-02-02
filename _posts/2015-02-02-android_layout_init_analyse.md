@@ -10,7 +10,7 @@ fullview: true
 是否能有别的方式进行空间的分辨率适配,和初始化优化工作.      
 于是便顺便记录下`Activity`初始化过程和`setContentView`.设置`Activity`的布局过程.   
 
-!<-- more -->   
+<!-- more -->   
 
 ***
 
