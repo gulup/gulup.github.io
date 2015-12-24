@@ -167,7 +167,7 @@ function() {
 			}
 		},
 		renderInfo: function() {
-			b.lv.text(this.lv + 1)
+			b.lv.text(this.lv)
 		},
 		gameOver: function() {
 			var Rankstr = "";
@@ -308,7 +308,7 @@ function() {
 			return [c, d]
 		},
 		getGameOverText: function(a) {
-			var b = a > 15 ? 1 : 0,
+			var b = a >= 15 ? 1 : 0,
 			c = this.lvT[b] || _.last(this.lvT),
 			d = c ,
 			e = a;
